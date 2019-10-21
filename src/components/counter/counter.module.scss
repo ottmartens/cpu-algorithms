@@ -1,0 +1,20 @@
+.counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #eee;
+  letter-spacing: 2px;
+  display: flex;
+  flex-direction: column;
+}
+
+.average {
+  margin-top: 20px;
+}
+
+.number {
+  font-weight: bold;
+  font-size: 32px;
+  border-bottom: 1px solid #999;
+  margin: 0 0 10px 20px;
+}

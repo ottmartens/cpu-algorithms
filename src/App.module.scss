@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+  monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.scheduler {
+  background: #222;
+  min-height: 100vh;
+  position: relative;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding-top: 20px;
+  top: 50px;
+  color: #eee;
+  letter-spacing: 1.2px;
+}
+
+.controls {
+  margin-top: 40px;
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.customTimeline {
+  position: absolute;
+  bottom: -30px;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #eee;
+  color: #eee;
+  font-size: 14px;
+  padding: 4px;
+
+  &:focus {
+    outline: none;
+  }
+
+}
+
+.error {
+  margin-top: 10px;
+  color: red;
+  letter-spacing: 1px;
+  font-size: 14px;
+}
+
+

@@ -1,0 +1,25 @@
+
+.button {
+    margin-top: 20px;
+    background: #222;
+    border-radius: 2px;
+    font-size: 18px;
+    letter-spacing: 3px;
+    font-weight: 700;
+    padding: 10px 20px;
+    color: #eee;
+    border-color: #777;
+    cursor: pointer;
+
+    &:hover:not(:disabled) {
+        background: #333;
+    }
+
+    &:focus {
+        outline: none;        
+    }
+
+    &:disabled {
+        cursor: not-allowed;
+    }
+}
