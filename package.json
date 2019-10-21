@@ -2,7 +2,7 @@
   "name": "processor-scheduler",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/ottmartens/cpu-algorithms",
+  "homepage": "http://ottmartens.github.io/cpu-algorithms",
   "author": "Ott-Kaarel Martens <ottmartens@gmail.com>",
   "dependencies": {
     "gh-pages": "^2.1.1",
