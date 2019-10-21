@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/ottmartens/cpu-algorithms/precache-manifest.9d20959974099b8c6409cd108993e407.js"
+  "/ottmartens/cpu-algorithms/precache-manifest.d248a39eeeb004fa1e9ff8704280f63e.js"
 );
 
 self.addEventListener('message', (event) => {

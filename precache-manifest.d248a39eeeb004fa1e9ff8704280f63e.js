@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d9c2f74c2f0782d4454c7f53733e4820",
+    "revision": "c00ca931acde48d53167b92ca26dfea8",
     "url": "/ottmartens/cpu-algorithms/index.html"
   },
   {
