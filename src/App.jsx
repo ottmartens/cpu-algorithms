@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-import { Select, Button, Visualizer } from './components';
+import { Select, Button, Visualizer, Link } from './components';
 import { timelineOptions, algoOptions } from './utils/constants';
 import styles from './App.module.scss';
 
@@ -39,6 +39,7 @@ const App = () => {
 
   return (
     <div className={styles.scheduler}>
+      <Link />
       <header className={styles.header}>
         <h1 className={styles.title}>CPU scheduler</h1>
         <div className={styles.controls}>
