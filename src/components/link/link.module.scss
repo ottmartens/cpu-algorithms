@@ -2,6 +2,12 @@
     position: absolute;
     top: 20px; 
     right: 20px;
-    color: white;
     font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    
+    a {
+        padding: 8px 0;
+        color: white;
+    }
 }
